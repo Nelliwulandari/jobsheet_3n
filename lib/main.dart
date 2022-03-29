@@ -39,7 +39,7 @@ class _MyAppState extends State<MyApp> {
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("Konversi Suhu - "),
+          title: const Text("Konversi Suhu"),
         ),
         body: Container(
           margin: const EdgeInsets.all(8),
@@ -47,7 +47,7 @@ class _MyAppState extends State<MyApp> {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Column(
-                children: [Text('Nelli Wulandari\n2031710069')],
+                children: [Text('Nelli Wulandari \n2031710069')],
               ),
               TextFormField(
                 controller: etInput,
